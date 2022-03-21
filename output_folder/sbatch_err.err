@@ -1,0 +1,14 @@
+/opt/slurm/var/spool/job25592807/slurm_script: line 30: cd: /fs02/zd26/collage_main/Tin2/pytorch-CycleGAN-and-pix2pix/: No such file or directory
+wandb: Appending key for api.wandb.ai to your netrc file: /home/nngu0068/.netrc
+Traceback (most recent call last):
+  File "train.py", line 30, in <module>
+    dataset = create_dataset(opt)
+  File "/fs02/zd26/collage_main/Tin2/cycleGAN_pix2pix/data/__init__.py", line 57, in create_dataset
+    data_loader = CustomDatasetDataLoader(opt)
+  File "/fs02/zd26/collage_main/Tin2/cycleGAN_pix2pix/data/__init__.py", line 73, in __init__
+    self.dataset = dataset_class(opt)
+  File "/fs02/zd26/collage_main/Tin2/cycleGAN_pix2pix/data/unaligned_dataset.py", line 30, in __init__
+    self.A_paths = sorted(make_dataset(self.dir_A, opt.max_dataset_size))   # load images from '/path/to/data/trainA'
+  File "/fs02/zd26/collage_main/Tin2/cycleGAN_pix2pix/data/image_folder.py", line 25, in make_dataset
+    assert os.path.isdir(dir), '%s is not a valid directory' % dir
+AssertionError: ./datasets/collage_testing/trainA is not a valid directory

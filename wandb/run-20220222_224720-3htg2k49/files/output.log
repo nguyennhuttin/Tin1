@@ -1,0 +1,12 @@
+create web directory ./checkpoints/collage_test_cycle_gan_3rdloss/web...
+learning rate 0.0002000 -> 0.0002000
+/fs02/zd26/collage_main/Tin/pytorch-CycleGAN-and-pix2pix/.venv/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+(epoch: 1, iters: 100, time: 1.265, data: 0.704) D_A: 0.338 G_A: 0.428 cycle_A: 15.978 idt_A: 0.464 D_B: 0.371 G_B: 0.364 cycle_B: 0.909 idt_B: 2.837
+(epoch: 1, iters: 200, time: 1.267, data: 0.002) D_A: 0.197 G_A: 0.375 cycle_A: 0.732 idt_A: 0.213 D_B: 0.194 G_B: 0.631 cycle_B: 0.504 idt_B: 0.363
+(epoch: 1, iters: 300, time: 1.267, data: 0.002) D_A: 0.146 G_A: 0.615 cycle_A: 0.815 idt_A: 0.201 D_B: 0.105 G_B: 0.500 cycle_B: 0.441 idt_B: 0.347
+(epoch: 1, iters: 400, time: 3.518, data: 0.002) D_A: 0.095 G_A: 0.636 cycle_A: 1.420 idt_A: 0.413 D_B: 0.177 G_B: 0.255 cycle_B: 0.800 idt_B: 0.575
+(epoch: 1, iters: 500, time: 1.268, data: 0.002) D_A: 0.162 G_A: 1.205 cycle_A: 1.157 idt_A: 0.200 D_B: 0.292 G_B: 0.324 cycle_B: 0.310 idt_B: 0.793
+(epoch: 1, iters: 600, time: 1.267, data: 0.002) D_A: 0.131 G_A: 0.446 cycle_A: 0.890 idt_A: 0.281 D_B: 0.130 G_B: 0.460 cycle_B: 0.503 idt_B: 0.523
+(epoch: 1, iters: 700, time: 1.258, data: 0.002) D_A: 0.100 G_A: 0.464 cycle_A: 0.973 idt_A: 0.144 D_B: 0.119 G_B: 0.634 cycle_B: 0.412 idt_B: 0.425
+(epoch: 1, iters: 800, time: 1.541, data: 0.002) D_A: 0.295 G_A: 0.344 cycle_A: 0.617 idt_A: 0.173 D_B: 0.459 G_B: 0.827 cycle_B: 0.424 idt_B: 0.373

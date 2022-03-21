@@ -1,0 +1,36 @@
+{
+    "os": "Linux-3.10.0-1160.45.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core",
+    "python": "3.7.3",
+    "heartbeatAt": "2022-02-22T11:14:39.666584",
+    "startedAt": "2022-02-22T11:14:38.267735",
+    "docker": null,
+    "gpu": "Tesla K80",
+    "gpu_count": 2,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [
+        "--dataroot",
+        "./datasets/collage_testing",
+        "--name",
+        "collage_test_cycle_gan_3rdloss",
+        "--model",
+        "cycle_gan_3rdloss",
+        "--direction",
+        "AtoB",
+        "--dataset_mode",
+        "unaligned",
+        "--use_wandb"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix",
+        "commit": "003efc4c8819de47ff11b5a0af7ba09aee7f5fc1"
+    },
+    "email": null,
+    "root": "/fs02/zd26/collage_main/Tin/pytorch-CycleGAN-and-pix2pix",
+    "host": "m3c006",
+    "username": "nngu0068",
+    "executable": "/fs02/zd26/collage_main/Tin/pytorch-CycleGAN-and-pix2pix/.venv/bin/python"
+}
